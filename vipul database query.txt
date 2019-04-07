@@ -1,0 +1,148 @@
+insert into capstore_admin values('7530124558','mahesh@gmail.com','Mahesh','password');
+
+insert into coupon values('CN1004',0,'Code4','70','20-JUL-2019');
+insert into coupon values('CN1003',0,'Code3','20','20-MAY-2019');
+insert into coupon values('CN1002',1,'Code2','50','20-APR-2019');
+insert into coupon values('CN1001',0,'Code1','25','20-JUN-2019');
+
+
+
+
+insert into feedback values('F1004','Good','2.0');
+insert into feedback values('F1003','Bad','4.0');
+insert into feedback values('F1002','Bad','3.0');
+insert into feedback values('F1001','Good','4.0');
+
+
+insert into wishlist values('W1001');
+insert into wishlist values('W1002');
+insert into wishlist values('W1003');
+insert into wishlist values('W1004');
+
+
+insert into cart values('C1001');
+insert into cart values('C1002');
+insert into cart values('C1003');
+insert into cart values('C1004');
+
+insert into customer values('7500349800',1,'29-JUL-1999','ramesh@gmail.com','M','Ramesh','qwertyuiop','C1001','W1001');
+insert into customer values('7500349801',1,'29-OCT-1999','ganesh@gmail.com','M','Ganesh','qwertyuiop','C1002','W1002');
+insert into customer values('7500349802',1,'29-JUN-1995','suresh@gmail.com','M','Suresh','qwertyuiop','C1003','W1003');
+insert into customer values('7500349803',0,'28-JUL-1995','dinesh@gmail.com','M','Dinesh','qwertyuiop','C1004','W1004');
+
+insert into savedcard values('S1001','7894512367584126','Ramesh',2024,05,'7500349800');
+insert into savedcard values('S1002','7894512367588521','Ganesh',2025,07,'7500349801');
+insert into savedcard values('S1003','7894512367584754','Suresh',2023,06,7500349802);
+insert into savedcard values('S1004','7894512367588521','Dinesh',2025,07,'7500349803');
+
+insert into merchant values('9079296110','puma@puma.com','Puma','Third Party','password');
+insert into merchant values('9079296111','wrangler@wrangler.com','Wrangler','Third Party','password');
+insert into merchant values('9079296112','dettol@dettol.com','Dettol','Third Party','password');
+insert into merchant values('9079296113','apple@apple.com','Apple','Third Party','password');
+
+
+
+insert into invoice values('I1001','COD',101);
+insert into invoice values('I1002','Debit Card',102);
+insert into invoice values('I1003','Net Banking',103);
+insert into invoice values('I1004','Cod',104);
+
+
+insert into address values('A1001','Home','9079296119','Talwade','Pune','101','Devi Indrayani','Ramesh','281406','Maharashtra','7500349800','9079296110');
+insert into address values('A1002','Work','9079296789','Migdi','Pune','102','Devi Indrayani','Ganesh','281406','Maharashtra','7500349801','9079296111');
+insert into address values('A1003','Work','9079296123','Wakad','Pune','103','Devi Indrayani','Suresh','281406','Maharashtra','7500349802','9079296112');
+insert into address values('A1004','Work','9079296147','Hinjwadi','Pune','104','Devi Indrayani','Dinesh','281406','Maharashtra','7500349803','9079296113');
+
+
+
+insert into product values('P1001',10,50,'Puma',3200.0,'Shoes',100.0,4.0,'8','https://5.imimg.com/data5/TG/HF/MY-42182438/puma-porsche-shoes-500x500.png');
+insert into product values('P1011',10,50,'Reebok',3340.0,'Shoes',100.0,3.0,'8','https://4.imimg.com/data4/YK/QW/GLADMIN-11753235/1-500x500.jpg');
+insert into product values('P1021',10,50,'Addidas',3560.0,'Shoes',100.0,2.0,'8','https://shopse.pk/wp-content/uploads/2017/08/ADIDAS-LED-LIGHT-SHOES-GREY-COLOR-IN-PAKISTAN.jpg');
+insert into product values('P1031',10,50,'Sparks',3240.0,'Shoes',100.0,4.0,'8','https://rukminim1.flixcart.com/image/714/857/jcrz6vk0/shoe/q/5/w/sc0322g-6-sparx-blackgrey-original-imafftpbtkxmymuw.jpeg?q=50');
+
+
+insert into product values('P1002',10,20,'Wrangler Jeans',3100.0,'Clothes',200.0,4.0,'32','https://www.myselleria.com/trunk/jeans-uomo-wrangler-cranck_og.jpg');
+insert into product values('P1022',10,20,'Wrangler Shirt',1300.0,'Clothes',200.0,4.0,'40','https://ak0.scstatic.net/1/cdn2-cont12.sweetcouch.com/145598247525446496-wrangler-navy-printed-casual-shirt.jpg');
+insert into product values('P1032',10,20,'Wrangler Trouser',4100.0,'Clothes',200.0,4.0,'34','https://img.tatacliq.com/images/i2/252Wx374H/MP000000002546199_252Wx374H_20180316085924.jpeg');
+insert into product values('P1042',10,20,'Wrangler Tshirt',800.0,'Clothes',200.0,4.0,'36','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4N9AJgft9M-17kabKpvcVJjtv4p5q10Uh2qMcP21ru6pennfe');
+
+insert into product values('P1003',10,20,'Dettol',300.0,'Soap',10.0,3.4,'small','https://5.imimg.com/data5/KL/NR/MY-11796826/dettol-original-bar-soap-250x250.jpg');
+insert into product values('P1023',10,20,'LifeBoy',100.0,'Soap',10.0,3.4,'small',https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEOaJxINR9Wy3mOxVpk8eU60g2NjmBv0w7HL0usT0FqYmS88FZ');
+insert into product values('P1033',10,20,'Dove',30.0,'Soap',10.0,3.4,'large','https://images-na.ssl-images-amazon.com/images/I/811973429FL._SY355_.jpg');
+insert into product values('P1043',10,20,'Pears',400.0,'Soap',10.0,3.4,'small','https://images-na.ssl-images-amazon.com/images/I/5160ABGUJmL.jpg');
+
+insert into product values('P1004',10,20,'Apple',400.0,'Fruit',90.0,4.0,'small','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5K5c2jVW-KYV7slUIWWoSqewlZxzx5F5mRqQpgTnqxYvHDJIzrA');
+insert into product values('P1014',10,20,'grapes',100.0,'Fruit',90.0,4.0,'small','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOBz4c0uWOqBLuEoF9pS-Q8TOo_fHwiBVBFykeH86nEt2H_JRf');
+insert into product values('P1024',10,20,'Strawberry',200.0,'Fruit',90.0,4.0,'Large','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF1_N16YrHuMVp8QPFGLrPFemkgkNGzbmc-Y7r9hgByJh4fvqSJA');
+insert into product values('P1034',10,20,'PineApple',400.0,'Fruit',90.0,4.0,'Small','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTe0pmbsOStVMGBJAkVamMCdz7ZHJ8yp9-GQqQ-MrcQh0zAi_c');
+
+insert into orders values('O1001','22-APR-2019','Delievered','','COD','20-APR-2019',2500.0,'A1001','I1001');
+insert into orders values('O1002','22-APR-2019','Returned',7894567894546123,'CARD','20-APR-2019',250.0,'A1002','I1002');
+insert into orders values('O1003','22-APR-2019','Canceled',7894567894546000,'NETBANKING','20-APR-2019',2210.0,'A1003','I1003');
+insert into orders values('O1004','22-APR-2019','Delievered',7894567894546777,'CARD','20-APR-2019',2210.0,'A1004','I1004');
+
+insert into response values('R1001','Good','3.7');
+
+
+
+
+insert into wishlist_product values('W1001','P1001');
+insert into wishlist_product values('W1002','P1002');
+insert into wishlist_product values('W1003','P1003');
+insert into wishlist_product values('W1004','P1004');
+
+
+
+
+insert into cart_order values('C1001','O1001');
+insert into cart_order values('C1002','O1002');
+insert into cart_order values('C1003','O1003');
+insert into cart_order values('C1004','O1004');
+
+
+insert into cart_product values('P1001','C1001');
+insert into cart_product values('P1002','C1002');
+insert into cart_product values('P1003','C1003');
+insert into cart_product values('P1004','C1004');
+
+
+
+
+insert into merchant_feedback values('F1001','9079296110','7500349800');
+insert into merchant_feedback values('F1002','9079296111','7500349801');
+insert into merchant_feedback values('F1003','9079296112','7500349802');
+insert into merchant_feedback values('F1004','9079296113','7500349803');
+
+
+insert into merchant_product values('P1001','9079296110');
+insert into merchant_product values('P1002','9079296111');
+insert into merchant_product values('P1003','9079296112');
+insert into merchant_product values('P1004','9079296113');
+
+
+
+
+insert into merchant_response values('R1001','9079296110','7500349800');
+
+
+
+
+
+insert into orders_product values('O1001','P1001');
+insert into orders_product values('O1002','P1002');
+insert into orders_product values('O1003','P1003');
+insert into orders_product values('O1004','P1004');
+
+
+insert into product_coupon values('CN1001','P1001');
+insert into product_coupon values('CN1002','P1002');
+insert into product_coupon values('CN1003','P1003');
+insert into product_coupon values('CN1004','P1004');
+
+
+insert into product_feedback values('F1001','P1001');
+insert into product_feedback values('F1002','P1002');
+insert into product_feedback values('F1003','P1003');
+insert into product_feedback values('F1004','P1004');
+
+
